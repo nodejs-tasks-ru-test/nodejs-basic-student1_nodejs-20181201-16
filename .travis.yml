@@ -6,4 +6,4 @@ script: node run_tests_ci
 
 notifications:
   webhooks:
-  - https://d3c9b901.ngrok.io/taskbook/travis/notifications
+  - https://60119101.ngrok.io/taskbook/travis/notifications
