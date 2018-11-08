@@ -5,6 +5,8 @@ const request = require('request-promise').defaults({
 });
 const run_tests = require('./run_tests');
 
+  console.log(process.env);
+
 const GITHUB_BASE = 'https://api.github.com';
 const GITHUB_HEADERS = {
   'Accept': 'application/vnd.github.v3+json',
